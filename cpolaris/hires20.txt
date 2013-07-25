@@ -1,0 +1,645 @@
+----------------------------------------
+Begin PBS Prologue Thu May 13 01:53:28 EDT 2010 1273730008
+Job ID:		1003655.mgt
+Username:	am2821H13
+Group:		am2821
+Nodes:		node148 node168 node170 node228 node229 node231 node234 node239
+End PBS Prologue Thu May 13 01:53:28 EDT 2010 1273730008
+----------------------------------------
+PBS: exec of shell '/opt/torque/x86_64/sbin/pbs_demux' failed
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Master process running on node239
+Directory is /users/am2821H13/scratch/cpolaris
+PBS has allocated the following nodes:
+node239 node239 node239 node239 node239 node239 node239 node239 node234 node234 node234 node234 node234 node234 node234 node234 node231 node231 node231 node231 node231 node231 node231 node231 node229 node229 node229 node229 node229 node229 node229 node229 node228 node228 node228 node228 node228 node228 node228 node228 node170 node170 node170 node170 node170 node170 node170 node170 node168 node168 node168 node168 node168 node168 node168 node168 node148 node148 node148 node148 node148 node148 node148 node148
+Starting execution at Thu May 13 01:53:28 EDT 2010
+This job has allocated 64 CPUs
+Hello world from process 1 of 64
+Hello world from process 18 of 64
+Hello world from process 42 of 64
+Hello world from process 59 of 64
+Hello world from process 13 of 64
+Hello world from process 29 of 64
+Hello world from process 2 of 64
+Hello world from process 21 of 64
+Hello world from process 45 of 64
+Hello world from process 62 of 64
+Hello world from process 12 of 64
+Hello world from process 25 of 64
+Hello world from process 4 of 64
+Hello world from process 47 of 64
+Hello world from process 15 of 64
+Hello world from process 28 of 64
+Hello world from process 5 of 64
+Hello world from process 48 of 64
+Hello world from process 16 of 64
+Hello world from process 26 of 64
+Hello world from process 7 of 64
+Hello world from process 3 of 64
+Hello world from process 6 of 64
+Hello world from process 8 of 64
+Hello world from process 17 of 64
+Hello world from process 19 of 64
+Hello world from process 20 of 64
+Hello world from process 22 of 64
+Hello world from process 23 of 64
+Hello world from process 24 of 64
+Hello world from process 27 of 64
+Hello world from process 31 of 64
+Hello world from process 32 of 64
+Hello world from process 49 of 64
+Hello world from process 51 of 64
+Hello world from process 52 of 64
+Hello world from process 56 of 64
+Hello world from process 50 of 64
+Hello world from process 53 of 64
+Hello world from process 55 of 64
+Hello world from process 9 of 64
+Hello world from process 10 of 64
+Hello world from process 11 of 64
+Hello world from process 14 of 64
+Hello world from process 30 of 64
+Hello world from process 33 of 64
+Hello world from process 34 of 64
+Hello world from process 35 of 64
+Hello world from process 36 of 64
+Hello world from process 37 of 64
+Hello world from process 41 of 64
+Hello world from process 38 of 64
+Hello world from process 43 of 64
+Hello world from process 39 of 64
+Hello world from process 44 of 64
+Hello world from process 40 of 64
+Hello world from process 46 of 64
+Hello world from process 54 of 64
+Hello world from process 57 of 64
+Hello world from process 58 of 64
+Hello world from process 60 of 64
+Hello world from process 61 of 64
+Hello world from process 63 of 64
+Hello world from process 64 of 64
+Sending next work item to 26 (353 remaining)
+Sending next work item to 52 (352 remaining)
+Sending next work item to 5 (351 remaining)
+Sending next work item to 1 (350 remaining)
+Sending next work item to 7 (349 remaining)
+Sending next work item to 2 (348 remaining)
+Sending next work item to 4 (347 remaining)
+Sending next work item to 3 (346 remaining)
+Sending next work item to 6 (345 remaining)
+Sending next work item to 8 (344 remaining)
+Sending next work item to 21 (343 remaining)
+Sending next work item to 28 (342 remaining)
+Sending next work item to 20 (341 remaining)
+Sending next work item to 45 (340 remaining)
+Sending next work item to 17 (339 remaining)
+Sending next work item to 25 (338 remaining)
+Sending next work item to 24 (337 remaining)
+Sending next work item to 23 (336 remaining)
+Sending next work item to 27 (335 remaining)
+Sending next work item to 29 (334 remaining)
+Sending next work item to 34 (333 remaining)
+Sending next work item to 16 (332 remaining)
+Sending next work item to 15 (331 remaining)
+Sending next work item to 10 (330 remaining)
+Sending next work item to 9 (329 remaining)
+Sending next work item to 18 (328 remaining)
+Sending next work item to 48 (327 remaining)
+Sending next work item to 42 (326 remaining)
+Sending next work item to 22 (325 remaining)
+Sending next work item to 14 (324 remaining)
+Sending next work item to 19 (323 remaining)
+Sending next work item to 31 (322 remaining)
+Sending next work item to 30 (321 remaining)
+Sending next work item to 53 (320 remaining)
+Sending next work item to 32 (319 remaining)
+Sending next work item to 37 (318 remaining)
+Sending next work item to 50 (317 remaining)
+Sending next work item to 41 (316 remaining)
+Sending next work item to 40 (315 remaining)
+Sending next work item to 54 (314 remaining)
+Sending next work item to 33 (313 remaining)
+Sending next work item to 58 (312 remaining)
+Sending next work item to 13 (311 remaining)
+Sending next work item to 49 (310 remaining)
+Sending next work item to 55 (309 remaining)
+Sending next work item to 47 (308 remaining)
+Sending next work item to 51 (307 remaining)
+Sending next work item to 44 (306 remaining)
+Sending next work item to 35 (305 remaining)
+Sending next work item to 12 (304 remaining)
+Sending next work item to 46 (303 remaining)
+Sending next work item to 11 (302 remaining)
+Sending next work item to 60 (301 remaining)
+Sending next work item to 57 (300 remaining)
+Sending next work item to 62 (299 remaining)
+Sending next work item to 61 (298 remaining)
+Sending next work item to 38 (297 remaining)
+Sending next work item to 56 (296 remaining)
+Sending next work item to 63 (295 remaining)
+Sending next work item to 59 (294 remaining)
+Sending next work item to 39 (293 remaining)
+Sending next work item to 36 (292 remaining)
+Sending next work item to 43 (291 remaining)
+Sending next work item to 17 (290 remaining)
+Sending next work item to 26 (289 remaining)
+Sending next work item to 33 (288 remaining)
+Sending next work item to 52 (287 remaining)
+Sending next work item to 1 (286 remaining)
+Sending next work item to 7 (285 remaining)
+Sending next work item to 2 (284 remaining)
+Sending next work item to 5 (283 remaining)
+Sending next work item to 8 (282 remaining)
+Sending next work item to 3 (281 remaining)
+Sending next work item to 4 (280 remaining)
+Sending next work item to 21 (279 remaining)
+Sending next work item to 24 (278 remaining)
+Sending next work item to 29 (277 remaining)
+Sending next work item to 28 (276 remaining)
+Sending next work item to 25 (275 remaining)
+Sending next work item to 34 (274 remaining)
+Sending next work item to 23 (273 remaining)
+Sending next work item to 6 (272 remaining)
+Sending next work item to 20 (271 remaining)
+Sending next work item to 45 (270 remaining)
+Sending next work item to 27 (269 remaining)
+Sending next work item to 15 (268 remaining)
+Sending next work item to 16 (267 remaining)
+Sending next work item to 55 (266 remaining)
+Sending next work item to 41 (265 remaining)
+Sending next work item to 40 (264 remaining)
+Sending next work item to 58 (263 remaining)
+Sending next work item to 37 (262 remaining)
+Sending next work item to 53 (261 remaining)
+Sending next work item to 50 (260 remaining)
+Sending next work item to 14 (259 remaining)
+Sending next work item to 54 (258 remaining)
+Sending next work item to 13 (257 remaining)
+Sending next work item to 10 (256 remaining)
+Sending next work item to 49 (255 remaining)
+Sending next work item to 48 (254 remaining)
+Sending next work item to 47 (253 remaining)
+Sending next work item to 18 (252 remaining)
+Sending next work item to 22 (251 remaining)
+Sending next work item to 32 (250 remaining)
+Sending next work item to 42 (249 remaining)
+Sending next work item to 9 (248 remaining)
+Sending next work item to 51 (247 remaining)
+Sending next work item to 30 (246 remaining)
+Sending next work item to 19 (245 remaining)
+Sending next work item to 31 (244 remaining)
+Sending next work item to 44 (243 remaining)
+Sending next work item to 35 (242 remaining)
+Sending next work item to 12 (241 remaining)
+Sending next work item to 62 (240 remaining)
+Sending next work item to 60 (239 remaining)
+Sending next work item to 46 (238 remaining)
+Sending next work item to 61 (237 remaining)
+Sending next work item to 43 (236 remaining)
+Sending next work item to 63 (235 remaining)
+Sending next work item to 57 (234 remaining)
+Sending next work item to 11 (233 remaining)
+Sending next work item to 39 (232 remaining)
+Sending next work item to 38 (231 remaining)
+Sending next work item to 59 (230 remaining)
+Sending next work item to 56 (229 remaining)
+Sending next work item to 36 (228 remaining)
+Sending next work item to 52 (227 remaining)
+Sending next work item to 17 (226 remaining)
+Sending next work item to 26 (225 remaining)
+Sending next work item to 53 (224 remaining)
+Sending next work item to 33 (223 remaining)
+Sending next work item to 63 (222 remaining)
+Sending next work item to 1 (221 remaining)
+Sending next work item to 7 (220 remaining)
+Sending next work item to 8 (219 remaining)
+Sending next work item to 5 (218 remaining)
+Sending next work item to 2 (217 remaining)
+Sending next work item to 3 (216 remaining)
+Sending next work item to 21 (215 remaining)
+Sending next work item to 4 (214 remaining)
+Sending next work item to 24 (213 remaining)
+Sending next work item to 40 (212 remaining)
+Sending next work item to 58 (211 remaining)
+Sending next work item to 29 (210 remaining)
+Sending next work item to 37 (209 remaining)
+Sending next work item to 41 (208 remaining)
+Sending next work item to 23 (207 remaining)
+Sending next work item to 34 (206 remaining)
+Sending next work item to 28 (205 remaining)
+Sending next work item to 25 (204 remaining)
+Sending next work item to 15 (203 remaining)
+Sending next work item to 45 (202 remaining)
+Sending next work item to 48 (201 remaining)
+Sending next work item to 14 (200 remaining)
+Sending next work item to 54 (199 remaining)
+Sending next work item to 55 (198 remaining)
+Sending next work item to 10 (197 remaining)
+Sending next work item to 27 (196 remaining)
+Sending next work item to 49 (195 remaining)
+Sending next work item to 50 (194 remaining)
+Sending next work item to 13 (193 remaining)
+Sending next work item to 16 (192 remaining)
+Sending next work item to 20 (191 remaining)
+Sending next work item to 18 (190 remaining)
+Sending next work item to 22 (189 remaining)
+Sending next work item to 47 (188 remaining)
+Sending next work item to 61 (187 remaining)
+Sending next work item to 60 (186 remaining)
+Sending next work item to 51 (185 remaining)
+Sending next work item to 42 (184 remaining)
+Sending next work item to 32 (183 remaining)
+Sending next work item to 6 (182 remaining)
+Sending next work item to 46 (181 remaining)
+Sending next work item to 19 (180 remaining)
+Sending next work item to 9 (179 remaining)
+Sending next work item to 43 (178 remaining)
+Sending next work item to 62 (177 remaining)
+Sending next work item to 44 (176 remaining)
+Sending next work item to 31 (175 remaining)
+Sending next work item to 30 (174 remaining)
+Sending next work item to 12 (173 remaining)
+Sending next work item to 35 (172 remaining)
+Sending next work item to 38 (171 remaining)
+Sending next work item to 39 (170 remaining)
+Sending next work item to 57 (169 remaining)
+Sending next work item to 11 (168 remaining)
+Sending next work item to 59 (167 remaining)
+Sending next work item to 56 (166 remaining)
+Sending next work item to 36 (165 remaining)
+Sending next work item to 52 (164 remaining)
+Sending next work item to 37 (163 remaining)
+Sending next work item to 26 (162 remaining)
+Sending next work item to 53 (161 remaining)
+Sending next work item to 17 (160 remaining)
+Sending next work item to 32 (159 remaining)
+Sending next work item to 33 (158 remaining)
+Sending next work item to 63 (157 remaining)
+Sending next work item to 1 (156 remaining)
+Sending next work item to 8 (155 remaining)
+Sending next work item to 7 (154 remaining)
+Sending next work item to 5 (153 remaining)
+Sending next work item to 40 (152 remaining)
+Sending next work item to 2 (151 remaining)
+Sending next work item to 24 (150 remaining)
+Sending next work item to 58 (149 remaining)
+Sending next work item to 21 (148 remaining)
+Sending next work item to 29 (147 remaining)
+Sending next work item to 3 (146 remaining)
+Sending next work item to 4 (145 remaining)
+Sending next work item to 41 (144 remaining)
+Sending next work item to 28 (143 remaining)
+Sending next work item to 23 (142 remaining)
+Sending next work item to 34 (141 remaining)
+Sending next work item to 25 (140 remaining)
+Sending next work item to 15 (139 remaining)
+Sending next work item to 48 (138 remaining)
+Sending next work item to 45 (137 remaining)
+Sending next work item to 14 (136 remaining)
+Sending next work item to 61 (135 remaining)
+Sending next work item to 60 (134 remaining)
+Sending next work item to 54 (133 remaining)
+Sending next work item to 49 (132 remaining)
+Sending next work item to 51 (131 remaining)
+Sending next work item to 42 (130 remaining)
+Sending next work item to 55 (129 remaining)
+Sending next work item to 27 (128 remaining)
+Sending next work item to 16 (127 remaining)
+Sending next work item to 20 (126 remaining)
+Sending next work item to 10 (125 remaining)
+Sending next work item to 18 (124 remaining)
+Sending next work item to 50 (123 remaining)
+Sending next work item to 22 (122 remaining)
+Sending next work item to 13 (121 remaining)
+Sending next work item to 46 (120 remaining)
+Sending next work item to 19 (119 remaining)
+Sending next work item to 47 (118 remaining)
+Sending next work item to 9 (117 remaining)
+Sending next work item to 62 (116 remaining)
+Sending next work item to 39 (115 remaining)
+Sending next work item to 6 (114 remaining)
+Sending next work item to 38 (113 remaining)
+Sending next work item to 57 (112 remaining)
+Sending next work item to 30 (111 remaining)
+Sending next work item to 43 (110 remaining)
+Sending next work item to 44 (109 remaining)
+Sending next work item to 12 (108 remaining)
+Sending next work item to 31 (107 remaining)
+Sending next work item to 35 (106 remaining)
+Sending next work item to 59 (105 remaining)
+Sending next work item to 11 (104 remaining)
+Sending next work item to 56 (103 remaining)
+Sending next work item to 36 (102 remaining)
+Sending next work item to 63 (101 remaining)
+Sending next work item to 52 (100 remaining)
+Sending next work item to 53 (99 remaining)
+Sending next work item to 17 (98 remaining)
+Sending next work item to 37 (97 remaining)
+Sending next work item to 26 (96 remaining)
+Sending next work item to 51 (95 remaining)
+Sending next work item to 32 (94 remaining)
+Sending next work item to 33 (93 remaining)
+Sending next work item to 59 (92 remaining)
+Sending next work item to 1 (91 remaining)
+Sending next work item to 8 (90 remaining)
+Sending next work item to 7 (89 remaining)
+Sending next work item to 5 (88 remaining)
+Sending next work item to 40 (87 remaining)
+Sending next work item to 61 (86 remaining)
+Sending next work item to 24 (85 remaining)
+Sending next work item to 60 (84 remaining)
+Sending next work item to 21 (83 remaining)
+Sending next work item to 2 (82 remaining)
+Sending next work item to 58 (81 remaining)
+Sending next work item to 28 (80 remaining)
+Sending next work item to 29 (79 remaining)
+Sending next work item to 54 (78 remaining)
+Sending next work item to 41 (77 remaining)
+Sending next work item to 15 (76 remaining)
+Sending next work item to 49 (75 remaining)
+Sending next work item to 25 (74 remaining)
+Sending next work item to 48 (73 remaining)
+Sending next work item to 55 (72 remaining)
+Sending next work item to 34 (71 remaining)
+Sending next work item to 42 (70 remaining)
+Sending next work item to 45 (69 remaining)
+Sending next work item to 14 (68 remaining)
+Sending next work item to 4 (67 remaining)
+Sending next work item to 16 (66 remaining)
+Sending next work item to 23 (65 remaining)
+Sending next work item to 27 (64 remaining)
+Sending next work item to 3 (63 remaining)
+Sending next work item to 20 (62 remaining)
+Sending next work item to 12 (61 remaining)
+Sending next work item to 10 (60 remaining)
+Sending next work item to 44 (59 remaining)
+Sending next work item to 18 (58 remaining)
+Sending next work item to 31 (57 remaining)
+Sending next work item to 50 (56 remaining)
+Sending next work item to 47 (55 remaining)
+Sending next work item to 22 (54 remaining)
+Sending next work item to 9 (53 remaining)
+Sending next work item to 19 (52 remaining)
+Sending next work item to 13 (51 remaining)
+Sending next work item to 35 (50 remaining)
+Sending next work item to 38 (49 remaining)
+Sending next work item to 62 (48 remaining)
+Sending next work item to 43 (47 remaining)
+Sending next work item to 30 (46 remaining)
+Sending next work item to 57 (45 remaining)
+Sending next work item to 46 (44 remaining)
+Sending next work item to 39 (43 remaining)
+Sending next work item to 6 (42 remaining)
+Sending next work item to 11 (41 remaining)
+Sending next work item to 56 (40 remaining)
+Sending next work item to 36 (39 remaining)
+Sending next work item to 63 (38 remaining)
+Sending next work item to 52 (37 remaining)
+Sending next work item to 29 (36 remaining)
+Sending next work item to 53 (35 remaining)
+Sending next work item to 26 (34 remaining)
+Sending next work item to 37 (33 remaining)
+Sending next work item to 17 (32 remaining)
+Sending next work item to 51 (31 remaining)
+Sending next work item to 9 (30 remaining)
+Sending next work item to 32 (29 remaining)
+Sending next work item to 33 (28 remaining)
+Sending next work item to 59 (27 remaining)
+Sending next work item to 1 (26 remaining)
+Sending next work item to 21 (25 remaining)
+Sending next work item to 8 (24 remaining)
+Sending next work item to 2 (23 remaining)
+Sending next work item to 58 (22 remaining)
+Sending next work item to 7 (21 remaining)
+Rank 50 terminating
+Finalized
+Rank 47 terminating
+Finalized
+Rank 31 terminating
+Finalized
+Rank 20 terminating
+Finalized
+Rank 27 terminating
+Finalized
+Sending next work item to 28 (20 remaining)
+Sending next work item to 5 (19 remaining)
+Sending next work item to 40 (18 remaining)
+Sending next work item to 61 (17 remaining)
+Sending next work item to 41 (16 remaining)
+Sending next work item to 24 (15 remaining)
+Sending next work item to 60 (14 remaining)
+Sending next work item to 15 (13 remaining)
+Sending next work item to 54 (12 remaining)
+Sending next work item to 49 (11 remaining)
+Sending next work item to 48 (10 remaining)
+Sending next work item to 25 (9 remaining)
+Sending next work item to 55 (8 remaining)
+Sending next work item to 34 (7 remaining)
+Sending next work item to 42 (6 remaining)
+Sending next work item to 45 (5 remaining)
+Sending next work item to 23 (4 remaining)
+Sending next work item to 16 (3 remaining)
+Sending next work item to 14 (2 remaining)
+Sending next work item to 22 (1 remaining)
+Killing process 64
+Killing process 64
+Killing process 64
+Killing process 64
+Killing process 64
+Killing process 64
+Rank 4 terminating
+Finalized
+Killing process 64
+Rank 12 terminating
+Finalized
+Killing process 64
+Rank 3 terminating
+Finalized
+Killing process 64
+Rank 19 terminating
+Finalized
+Killing process 64
+Rank 13 terminating
+Finalized
+Killing process 64
+Rank 18 terminating
+Finalized
+Killing process 64
+Rank 10 terminating
+Finalized
+Killing process 64
+Rank 44 terminating
+Finalized
+Killing process 64
+Rank 35 terminating
+Finalized
+Killing process 64
+Rank 38 terminating
+Finalized
+Killing process 64
+Rank 62 terminating
+Finalized
+Killing process 64
+Rank 30 terminating
+Finalized
+Killing process 64
+Rank 43 terminating
+Finalized
+Killing process 64
+Rank 57 terminating
+Finalized
+Killing process 64
+Rank 39 terminating
+Finalized
+Killing process 64
+Rank 46 terminating
+Finalized
+Killing process 64
+Rank 6 terminating
+Finalized
+Killing process 64
+Rank 56 terminating
+Finalized
+Killing process 64
+Rank 11 terminating
+Finalized
+Killing process 64
+Rank 36 terminating
+Finalized
+Killing process 64
+Rank 63 terminating
+Finalized
+Killing process 64
+Rank 59 terminating
+Finalized
+Killing process 64
+Rank 52 terminating
+Finalized
+Killing process 64
+Rank 29 terminating
+Finalized
+Killing process 64
+Rank 53 terminating
+Finalized
+Killing process 64
+Rank 26 terminating
+Finalized
+Killing process 64
+Rank 37 terminating
+Finalized
+Killing process 64
+Rank 22 terminating
+Finalized
+Killing process 64
+Rank 17 terminating
+Finalized
+Killing process 64
+Rank 9 terminating
+Finalized
+Killing process 64
+Rank 33 terminating
+Finalized
+Killing process 64
+Rank 51 terminating
+Finalized
+Killing process 64
+Rank 32 terminating
+Finalized
+Killing process 64
+Rank 1 terminating
+Finalized
+Killing process 64
+Rank 21 terminating
+Finalized
+Killing process 64
+Rank 8 terminating
+Finalized
+Killing process 64
+Rank 58 terminating
+Finalized
+Killing process 64
+Rank 7 terminating
+Finalized
+Killing process 64
+Rank 28 terminating
+Finalized
+Rank 5 terminating
+Finalized
+Killing process 64
+Killing process 64
+Rank 40 terminating
+Finalized
+Killing process 64
+Rank 61 terminating
+Finalized
+Killing process 64
+Rank 54 terminating
+Finalized
+Killing process 64
+Rank 41 terminating
+Finalized
+Killing process 64
+Rank 60 terminating
+Finalized
+Killing process 64
+Rank 24 terminating
+Finalized
+Killing process 64
+Rank 48 terminating
+Finalized
+Killing process 64
+Rank 49 terminating
+Finalized
+Killing process 64
+Rank 25 terminating
+Finalized
+Killing process 64
+Rank 55 terminating
+Killing process 64
+Rank 34 terminating
+Finalized
+Finalized
+Killing process 64
+Rank 14 terminating
+Finalized
+Killing process 64
+Rank 42 terminating
+Finalized
+Killing process 64
+Rank 45 terminating
+Finalized
+Killing process 64
+Rank 16 terminating
+Finalized
+Killing process 64
+Rank 2 terminating
+Finalized
+Killing process 64
+Rank 15 terminating
+Finalized
+Killing process 64
+Samples: 20	Threads: 64   Total time: 25.25 s  Traversals: 0.00 M/s
+Rank 23 terminating
+Finalized
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Finished execution at
+----------------------------------------
+Begin PBS Epilogue Thu May 13 01:54:01 EDT 2010 1273730041
+Job ID:		1003655.mgt
+Username:	am2821H13
+Group:		am2821
+Job Name:	test
+Session:	16386
+Limits:		nodes=8:ppn=8,walltime=00:59:00
+Resources:	cput=00:00:00,mem=6368kb,vmem=106072kb,walltime=00:00:28
+Queue:		dq
+Account:		
+Nodes:	node148 node168 node170 node228 node229 node231 node234 node239
+Killing leftovers...
+
+End PBS Epilogue Thu May 13 01:54:01 EDT 2010 1273730041
+----------------------------------------

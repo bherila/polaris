@@ -1,0 +1,487 @@
+<scenefile>
+	<globaldata>
+		<diffusecoeff v="0.7"/>
+		<specularcoeff v="0.54"/>
+		<ambientcoeff v="0.5"/>
+	</globaldata>
+
+	<cameradata>
+		<pos x="10" y="4.1" z="16"/>
+		<up x="0" y="1" z="0"/>
+		
+		<heightangle v="49.5"/>
+		<look x="-9" y="-3.2" z="-16"/>
+	</cameradata>
+
+	<lightdata>
+		<id v="0"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="1.5" v2="0" v3="0"/>
+		<position x="10" y="10" z="10"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="1"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="1.5" v2="0" v3="0"/>
+		<type v="directional"/>
+		<direction x="0.25" y="1" z="-1"/>
+	</lightdata>
+
+	<lightdata>
+		<id v="2"/>
+		<color r="1" g="1" b="1"/>
+		<function v1="1.5" v2="0" v3="0"/>
+		<type v="directional"/>
+		<direction x="1" y="-1.8" z="-2"/>
+	</lightdata>
+
+	<object type="tree" name="root">
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<scale x="6" y="6" z="6"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="21.722"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.5" y="0" z="0"/>
+			<scale x="3" y="3" z="3"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="18.4663"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="6.75" y="0" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="21.2766"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.5" y="2.25" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="22.2952"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.5" y="0" z="2.25"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="24.4667"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.5" y="-2.25" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="18.5298"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="4.5" y="0" z="-2.25"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="17.0884"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="4.5" z="0"/>
+			<scale x="3" y="3" z="3"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="17.0699"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="2.25" y="4.5" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="20.7719"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="6.75" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="24.892"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="4.5" z="2.25"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="17.5105"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-2.25" y="4.5" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="20.6005"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="4.5" z="-2.25"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="24.1096"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="4.5"/>
+			<scale x="3" y="3" z="3"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="19.2263"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="2.25" y="0" z="4.5"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="16.2401"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="2.25" z="4.5"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="21.9468"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="6.75"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="21.6375"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-2.25" y="0" z="4.5"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="23.6515"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-2.25" z="4.5"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="22.7273"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-4.5" y="0" z="0"/>
+			<scale x="3" y="3" z="3"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="17.3023"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-4.5" y="2.25" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="18.4013"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-4.5" y="0" z="2.25"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="24.4105"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-6.75" y="0" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="23.9656"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-4.5" y="-2.25" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="18.957"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-4.5" y="0" z="-2.25"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="20.5367"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-4.5" z="0"/>
+			<scale x="3" y="3" z="3"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="22.2169"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="2.25" y="-4.5" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="17.6238"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-4.5" z="2.25"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="19.0544"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-2.25" y="-4.5" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="19.7613"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-6.75" z="0"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="0.75" b="1"/>
+				<diffuse r="0.75" g="0.75" b="1"/>
+				<shininess v="23.3915"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-4.5" z="-2.25"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="19.7978"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-4.5"/>
+			<scale x="3" y="3" z="3"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="18.9634"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="2.25" y="0" z="-4.5"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="20.7513"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="2.25" z="-4.5"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="19.3494"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="-2.25" y="0" z="-4.5"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="23.5615"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="-2.25" z="-4.5"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="0.75" g="1" b="0.75"/>
+				<diffuse r="0.75" g="1" b="0.75"/>
+				<shininess v="15.6726"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+		<transblock>
+			<translate x="0" y="0" z="-6.75"/>
+			<scale x="1.5" y="1.5" z="1.5"/>
+			<object type="primitive" name="sphere" >
+				<reflective r="1" g="0.75" b="0.75"/>
+				<diffuse r="1" g="0.75" b="0.75"/>
+				<shininess v="17.4838"/>
+				<specular r="1" g="1" b="1"/>
+				<texture file="/course/cs123/data/image/marsTexture.png" u="1" v="1"/>
+				<blend v="0.75"/>
+			</object>
+		</transblock>
+	</object>
+
+</scenefile>
+

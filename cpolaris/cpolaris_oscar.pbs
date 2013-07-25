@@ -1,0 +1,121 @@
+#!/bin/sh 
+# name the job
+#PBS -N polaris
+#PBS -r n
+#PBS -o oscar.out
+
+# combine stdout and stderr streams
+#PBS -j oe
+
+# The following requests 2 nodes, with 8 processes per node 
+#PBS -l nodes=17:ppn=8
+
+# time is H:M:S, and the numbers can be large...
+#PBS -l walltime=01:00:00
+
+cd $PBS_O_WORKDIR
+
+# write some possibly useful stuff to the output file
+echo Master process running on `hostname`
+echo Directory is `pwd`
+echo PBS has allocated the following nodes:
+echo `cat $PBS_NODEFILE`
+echo Starting execution at `date`
+NPROCS=`wc -l < $PBS_NODEFILE`
+echo This job has allocated $NPROCS CPUs
+
+./animation_oscar.sh
+
+#mpirun -np 32 -machinefile $PBS_NODEFILE a.out
+
+# execute 8 serial programs, in order to utilize all cores on a single node
+# The "&" causes each program to be run as a background process
+# The "wait" causes the batch script interpreter to wait until all 
+# background processes have completed before continuing.
+#myprogram args1 &
+#myprogram args2 &
+
+#Initial strong scaling
+#mpirun -np 6 -machinefile $PBS_NODEFILE render_diffuse_cubes 10 spp10_cpu06.bmp 
+#mpirun -np 12 -machinefile $PBS_NODEFILE render_diffuse_cubes 10 spp10_cpu12.bmp 
+#mpirun -np 18 -machinefile $PBS_NODEFILE render_diffuse_cubes 10 spp10_cpu18.bmp 
+#mpirun -np 24 -machinefile $PBS_NODEFILE render_diffuse_cubes 10 spp10_cpu24.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 10 spp10_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 10 spp10_cpu36.bmp 
+
+#mpirun -np 6 -machinefile $PBS_NODEFILE render_diffuse_cubes 20 spp20_cpu06.bmp 
+#mpirun -np 12 -machinefile $PBS_NODEFILE render_diffuse_cubes 20 spp20_cpu12.bmp 
+#mpirun -np 18 -machinefile $PBS_NODEFILE render_diffuse_cubes 20 spp20_cpu18.bmp 
+#mpirun -np 24 -machinefile $PBS_NODEFILE render_diffuse_cubes 20 spp20_cpu24.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 20 spp20_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 20 spp20_cpu36.bmp 
+
+#mpirun -np 6 -machinefile $PBS_NODEFILE render_diffuse_cubes 30 spp30_cpu06.bmp 
+#mpirun -np 12 -machinefile $PBS_NODEFILE render_diffuse_cubes 30 spp30_cpu12.bmp 
+#mpirun -np 18 -machinefile $PBS_NODEFILE render_diffuse_cubes 30 spp30_cpu18.bmp 
+#mpirun -np 24 -machinefile $PBS_NODEFILE render_diffuse_cubes 30 spp30_cpu24.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 30 spp30_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 30 spp30_cpu36.bmp 
+
+#mpirun -np 6 -machinefile $PBS_NODEFILE render_diffuse_cubes 40 spp40_cpu06.bmp 
+#mpirun -np 12 -machinefile $PBS_NODEFILE render_diffuse_cubes 40 spp40_cpu12.bmp 
+#mpirun -np 18 -machinefile $PBS_NODEFILE render_diffuse_cubes 40 spp40_cpu18.bmp 
+#mpirun -np 24 -machinefile $PBS_NODEFILE render_diffuse_cubes 40 spp40_cpu24.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 40 spp40_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 40 spp40_cpu36.bmp 
+
+#Weak scaling
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 10 spp10_cpu32.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 20 spp20_cpu32.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 30 spp30_cpu32.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 40 spp40_cpu32.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 80 spp80_cpu32.bmp 
+#mpirun -np 32 -machinefile $PBS_NODEFILE render_diffuse_cubes 120 spp120_cpu32.bmp
+
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 10 spp10_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 20 spp20_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 30 spp30_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 40 spp40_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 80 spp80_cpu32.bmp 
+#mpirun -np 36 -machinefile $PBS_NODEFILE render_diffuse_cubes 120 spp120_cpu32.bmp
+
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_diffuse_cubes 240 spp240_cpu64.bmp 
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_diffuse_cubes 360 spp360_cpu64.bmp 
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_diffuse_cubes 720 spp720_cpu64.bmp 
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_diffuse_cubes 900 spp900_cpu64.bmp 
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_diffuse_cubes 1800 spp1800_cpu64.bmp 
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_diffuse_cubes 2700 spp2700_cpu64.bmp
+
+## Recursive spheres
+## usage: NUMSAMPLES OUTFILE RECURSIONDEPTH
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_recursive_spheres 50 rs1.bmp 1
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_recursive_spheres 50 rs2.bmp 2
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_recursive_spheres 50 rs3.bmp 3
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_recursive_spheres 50 rs4.bmp 4
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_recursive_spheres 50 rs5.bmp 5
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_recursive_spheres 50 rs6.bmp 6
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_recursive_spheres 50 rs7.bmp 7
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_recursive_spheres 50 rs8.bmp 8
+
+## High resolution renders 
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_hires_cubes 2000 hires2000.bmp
+#mpirun -np 64 -machinefile $PBS_NODEFILE render_hires_spheres 50 spheres50.bmp
+#mpirun -np 24 -machinefile $PBS_NODEFILE render_hires_spheres 4000 spheres4000.bmp
+
+## Varying block size
+## usage: a.out NUMSAMPLES OUTFILE RECURSIONDEPTH BLOCKSIZE
+## NOTE: recursiondepth is ignored for now
+## render size is 2560x1600
+#mpirun -np 64 -machinefile $PBS_NODEFILE a.out 50 blocks50.bmp 1 8
+#mpirun -np 64 -machinefile $PBS_NODEFILE a.out 50 blocks50.bmp 1 16
+#mpirun -np 64 -machinefile $PBS_NODEFILE a.out 50 blocks50.bmp 1 24
+#mpirun -np 64 -machinefile $PBS_NODEFILE a.out 50 blocks50.bmp 1 32
+#mpirun -np 64 -machinefile $PBS_NODEFILE a.out 50 blocks50.bmp 1 40
+#mpirun -np 64 -machinefile $PBS_NODEFILE a.out 50 blocks50.bmp 1 48
+#mpirun -np 64 -machinefile $PBS_NODEFILE a.out 50 blocks50.bmp 1 56
+#mpirun -np 64 -machinefile $PBS_NODEFILE a.out 50 blocks50.bmp 1 64
+
+
+
+echo Finished execution at `time`
+

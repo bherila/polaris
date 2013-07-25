@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>camera.h</itemPath>
+      <itemPath>image.h</itemPath>
+      <itemPath>kdtree.h</itemPath>
+      <itemPath>matrix.h</itemPath>
+      <itemPath>mtwist.h</itemPath>
+      <itemPath>ray.h</itemPath>
+      <itemPath>renderer.h</itemPath>
+      <itemPath>sampler.h</itemPath>
+      <itemPath>scene.h</itemPath>
+      <itemPath>scenes.h</itemPath>
+      <itemPath>vector.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>camera.c</itemPath>
+      <itemPath>kdtree.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>matrix.c</itemPath>
+      <itemPath>mtwist.c</itemPath>
+      <itemPath>renderer.c</itemPath>
+      <itemPath>sampler.c</itemPath>
+      <itemPath>scene.c</itemPath>
+      <itemPath>scenes.c</itemPath>
+      <itemPath>vector.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-pg</commandLine>
+        </cTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>Mathematics</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <commandLine>-ftree-vectorize -ffast-math -funroll-loops -finline-functions</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>Mathematics</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

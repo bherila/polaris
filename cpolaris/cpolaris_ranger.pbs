@@ -1,0 +1,13 @@
+#!/bin/bash
+                          # Use Bash Shell
+#$ -V                     # Inherit the submission environment
+#$ -cwd                   # Start job in  submission directory
+#$ -N calculus            # Job Name
+#$ -j y                   # combine stderr & stdout into stdout
+#$ -o $JOB_NAME.o$JOB_ID  # Name of the output file (eg. myMPI.oJobID)
+#$ -pe 16way 256           # Requests 16 cores/node, 32 cores total
+#$ -q development         # Queue name
+#$ -l h_rt=00:12:00       # Run time (hh:mm:ss)
+
+ibrun -n 256 -o 0 ./ranger_diffuse_cubes 2000 cubes.bmp
+wait
